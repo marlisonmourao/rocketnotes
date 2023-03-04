@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-rows: 10.5rem auto;
-  grid-template-areas: "header" "content";
+  grid-template-areas: 'header' 'content';
 `
 
 export const Links = styled.ul`
@@ -19,4 +19,4 @@ export const Links = styled.ul`
   a {
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
-`;
+`

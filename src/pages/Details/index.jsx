@@ -1,8 +1,8 @@
-import { Container, Links } from "./style";
+import { Container, Links } from './style'
 
-import { Button } from "../../components/Button";
-import { Header } from "../../components/Header";
-import { Section } from "../../components/Section";
+import { Button } from '../../components/Button'
+import { Header } from '../../components/Header'
+import { Section } from '../../components/Section'
 import { Tag } from '../../components/Tag'
 
 export function Details() {
@@ -28,5 +28,5 @@ export function Details() {
 
       <Button title="Voltar" />
     </Container>
-  );
+  )
 }

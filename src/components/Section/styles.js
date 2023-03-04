@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.section`
   margin: 5.6rem 0 2.8rem;
@@ -11,4 +11,4 @@ export const Container = styled.section`
     font-size: 2rem;
     font-weight: 400;
   }
-`;
+`

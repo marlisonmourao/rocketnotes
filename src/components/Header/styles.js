@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.header`
   grid-area: header;
@@ -7,7 +7,7 @@ export const Container = styled.header`
   width: 100%;
 
   border-bottom-width: 1px solid ${({ theme }) => theme.BACKGROUND_700};
-  
+
   display: flex;
   justify-content: space-between;
 
@@ -41,7 +41,7 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
-`;
+`
 
 export const Logout = styled.button`
   border: none;
@@ -51,4 +51,4 @@ export const Logout = styled.button`
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 3.6rem;
   }
-`;
+`
