@@ -1,4 +1,4 @@
-import { Container, Form } from './styles'
+import { Container, Form, Background } from './styles'
 
 import { FiMail, FiLock } from 'react-icons/fi'
 
@@ -22,6 +22,8 @@ export function SignIn() {
 
         <a href="#">Criar conta</a>
       </Form>
+
+      <Background />
     </Container>
   )
 }
