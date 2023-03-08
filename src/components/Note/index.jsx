@@ -5,7 +5,7 @@ import { Tag } from '../Tag'
 export function Note({ data, ...rest }) {
   return (
     <Container {...rest}>
-      <h1>{data.title}</h1>
+      <h1>{data.text}</h1>
 
       {data.tags && (
         <footer>
